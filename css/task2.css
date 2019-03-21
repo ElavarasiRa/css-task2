@@ -1,0 +1,110 @@
+* {
+  box-szing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.header{
+	background-color: #0066cc;
+	width: 1235px;
+	height: 45px;
+	padding: 1px 57px;
+	overflow-x: hidden;
+}
+.list{
+  position: absolute;
+  top: 90px;
+  right: 110px;
+  color: white;
+  list-style-type: none;
+  font-size: 35px;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 9px 11px;
+  text-decoration: none;
+}
+.active{
+	margin: 3px;
+	border: 1px solid #4d94ff;
+	background-color: white;
+}
+.active:hover{
+	color: #3385ff;
+}
+.container {
+  position: relative;
+}
+.textright {
+  position: absolute;
+  top: 8px;
+  right: 180px;
+  font-size: 43px;
+  color: white;
+}
+.text{
+  position: absolute;
+  top: 48px;
+  right: 255px;
+  font-size: 15px;
+  color: white;
+}
+.underline{
+	position: absolute;
+	text-decoration: underline;
+	color: white;
+	font-size: 10px;
+	bottom: 200px;
+	right: 120px;
+}
+.button{
+	border-radius: 8px;
+	background-image: url("../img/shopping.png");
+	background-size: 15px 15px;
+	background-color: #ffb56a;
+	background-repeat: no-repeat;
+	background-position: left;
+	margin-left: 5px;
+	border: #ffb56a;
+	color: white;
+	padding: 4px 40px;
+}
+.para{
+	text-align: justify;
+}
+.equal{
+	margin-left: 90px;
+	margin-right: 33px;
+	padding: 5px 45px;
+}
+table{
+    margin-right: 34px;
+    padding: 0px 40px;
+}
+th{
+	text-align: left;
+	font-size: 25px;
+	padding-left: 42px;
+}
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 216px;
+  padding-left: 80px;
+}
+div.desc {
+	color: blue;
+  padding-left: 40px;
+  text-align: center;
+}
+div.sec{
+	padding-left: 35px;
+}
+.radius{
+	border-radius: 4px;
+}
